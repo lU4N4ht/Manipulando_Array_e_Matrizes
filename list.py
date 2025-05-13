@@ -35,6 +35,10 @@ print(f"Lista carros: {carros}")
 print(f"Lista carros2 (cópia): {carros2}")
 print(f"Todos os carros (união das listas): {todos_carros}")
 
+# Percorrer cada elemento da lista por meio do for
+for x in carros:
+    print(x)
+
 # Limpando todos os elementos da lista original
 carros.clear()
 print(f"Lista carros após clear(): {carros}")  # Saída: []
